@@ -10,9 +10,21 @@
 5. End the begin section.
 
 ### Program:
-
+```
+DECLARE
+ a NUMBER := 550;
+ b NUMBER := 450;
+ c NUMBER;
+BEGIN
+ c:=a+b;
+ dbms_output.Put_line('addition of two numbers is '||c);
+ c:=a-b;
+ dbms_output.Put_line('subtraction of two numbers is '||c);
+END;
+```
 
 ### Output:
+![image](https://github.com/22008650/DBMS/assets/122548204/64800f1c-089b-4145-88f4-40fa9944ad7d)
 
 
 ### Result:
